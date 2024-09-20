@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <style>
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkKixUNQmptoPYe5KMHrdkDTAFRTe5Sm3pA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#txt{
+
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 700px;
+    height: 300px;
+    background-color: seagreen;
+}
+div{
+    width: 300px;
+    height: 120px;
+    background-color: aqua;
+    margin-left: 40%;
+     margin-top: 5%;
+     text-align: center;
+     padding: 10px;
+
+}
+
+    </style>
+</head>
+<body>
+    
+    <textarea name="" id="txt"></textarea>
+        
+<script>
+          
+        let di1=document.createElement("div")
+        
+        let btn1=document.createElement("button")
+        btn1.innerHTML=" <span class='material-symbols-outlined'>arrow_back_ios</span>"
+             
+
+        btn1.addEventListener("click", ()=>{
+       window.location.assign("./nxt.html")
+         })
+          
+       let p1=document.createElement("p")
+       p1.innerText=" write what you need from this website"
+
+    //    let btn2=document.createElement("button")
+    //    btn2.innerHTML="<span class='material-symbols-outlined'>arrow_forward_ios </span>"
+
+          
+    //    btn2.addEventListener("click", ()=>{
+    //    window.location.assign("./last.html")
+    //      })
+
+
+     let text=document.getElementById("txt")
+
+     di1.append(btn1,p1)
+     document.body.append(di1,txt)
+</script>
+
+</body>
+</html>
